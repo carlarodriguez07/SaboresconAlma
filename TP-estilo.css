@@ -7,7 +7,7 @@
 }
 body {
     margin: 0 auto;
-    max-width: 1200px;
+    
     padding: 0 20px;
 }
 .container{ 
@@ -597,3 +597,77 @@ main h1 {
         font-size: 20px;
     }
 }
+
+    /* CREAR RECETA - MAIN*/
+
+    .mainTuReceta{
+        min-height: 50vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .formR-container {
+        width: 100%;
+        max-width: 500px;
+        margin: 20px;
+        padding: 20px;
+        background-color: #ffffff;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    .formR-container h2 {
+        color: #33302D;
+        text-align: center;
+    }
+    .formR-group {
+        margin-bottom: 15px;
+    }
+    .formR-group label {
+        display: block;
+        margin-bottom: 5px;
+        color: #33302D;
+    }
+
+    .formR-group textarea{
+        width: 90%;
+        border-radius: 10px;
+        border-color: #33302D;
+        background-color: #CF7734;
+    }
+    .formR-group input, .form-group select, .form-group textarea {
+        width: 100%;
+        padding: 10px;
+        box-sizing: border-box;
+        border: 1px solid #A66E44;
+        border-radius: 5px;
+        background-color: #CF7734;
+        color: #33302D;
+    }
+    .formR-group input[type="radio"] {
+        width: auto;
+    }
+    .formR-group input[type="file"] {
+        padding: 3px;
+        background-color: #CF7734;
+        color: #FA7814;
+    }
+    .error {
+        color: #CF7734;
+        font-size: 0.9em;
+        display: none;
+    }
+    .submit-btn {
+        width: 100%;
+        padding: 10px;
+        background-color: #FA7814;
+        color: #33302D;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 1em;
+        font-weight: bold;
+    }
+    .submit-btn:hover {
+        background-color: #CF7734;
+    }
