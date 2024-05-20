@@ -49,7 +49,7 @@ body {
 
 /*********Responsive**************/
 
-@media screen and (max-width:600px) {
+@media screen and (max-width:991px) {
     .container {
         flex-direction:column;
         align-items: center;
@@ -76,7 +76,7 @@ body {
     }
 }
 
-@media screen and (max-width: 778px) {
+@media screen and (max-width: 1200px) {
     .container {
         flex-direction:column;
         align-items: center;
@@ -130,7 +130,7 @@ main h1 {
 }
 
 /*********Responsive**************/
-@media screen and (max-width:600px) {
+@media screen and (max-width:991px) {
     .fondo1 {
         position: relative;
         width: 100%;
@@ -151,7 +151,7 @@ main h1 {
     }   
 }
 
-@media screen and (max-width:768px) {
+@media screen and (max-width:1200px) {
     .fondo1 {
         position: relative;
         width: 100%;
@@ -206,7 +206,7 @@ main h1 {
 
 /*********Responsive**************/
 
-@media screen and (max-width:600px) {
+@media screen and (max-width:991px) {
     .section_contenedor { 
         display: grid;
         place-items: center;
@@ -224,7 +224,7 @@ main h1 {
         margin-bottom: 15px;
     }
 }
-@media screen and (max-width: 778px) {
+@media screen and (max-width: 1200px) {
     .section_contenedor{
         grid-template-columns: 1fr;
     }
@@ -289,7 +289,7 @@ main h1 {
 
 /*********Responsive**************/
 
-@media screen and (max-width:600px) {
+@media screen and (max-width:768px) {
     .foot {
         flex-direction:column;
         align-items: center;
@@ -313,7 +313,7 @@ main h1 {
     }
 }
 
-@media screen and (max-width: 778px) {
+@media screen and (max-width: 1024px) {
     .foot {
         margin-top: 50px;
     }
@@ -398,7 +398,7 @@ main h1 {
     z-index: 1000; 
 }
 /*********Responsive**************/
-@media screen and (max-width:600px) {
+@media screen and (max-width:768px) {
     .titulo_receta{
         margin-top: 65px;
         font-size: large;
