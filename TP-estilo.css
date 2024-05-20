@@ -333,6 +333,9 @@ main h1 {
 .imagen_receta:hover{
     transform: scale(1.2);
 }
+.imagen_receta:hover:not(:active) {
+    transform: scale(1);
+}
 
 .ingredientes ul li{
     display: flex;
