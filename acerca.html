@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <title>Sabores con alma</title>
+    <link rel="icon" href="Imagenes/Logo1.ico">
+    <meta charset="UTF-8">
+    <meta name ="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="TP-estilo.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/3f033f1544.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <style>
+        .carousel-item img {
+            width: 100%;
+            height: auto;
+        }
+    </style>  
+</head>
+<body>
+
+
+    <!--********************************** HEADER **********************************-->
+<header>
+    <nav class="container">
+        <img 
+            src="Imagenes/Logo4.png"
+            class="container_img"
+            alt="logo-superior"
+            width="120"
+            height="120"
+        >
+        <ul class="container_list2">
+            <li><a href="Home.html" class="list_link1">Home</a></li>
+            <li><a href="recetas.html" class="list_link2">Recetas</a></li>
+            <li><a href="tureceta.html" class="list_link3">Crea tu Receta</a></li>
+            <li><a href="contacto.html" class="list_link4">Contacto</a></li>
+                        
+        </ul>
+    </nav>
+
+</header>
+<!--********************************** MAIN **********************************-->
+<main>
+    <div class="fondo1">
+        <img src="Imagenes/fondo2.jpg" alt="Gabriela Fontana">
+    </div>
+        <h1>Gabriela Fontana</h1>   
+</main>
+
+<!--********************************** SECTION**********************************-->
+<section>
+    <div id="sobreGabriela1">
+        <p>Todo comenzó en mi pequeña cocina, donde pasaba horas experimentando con ingredientes, aromas y técnicas. Crecí rodeada de tradiciones culinarias, aprendiendo los secretos de la cocina de mi abuela y la creatividad de mi madre. Sin embargo, fue mi curiosidad insaciable lo que me llevó a explorar más allá de las recetas familiares.</p>
+        <p>Un día, mientras preparaba una cena para amigos y familiares, me di cuenta de algo: la comida no solo alimenta el cuerpo, sino también el alma. Cada plato tenía el poder de evocar recuerdos, despertar emociones y crear vínculos. Fue en ese momento que supe que quería compartir esta experiencia con otros, y así nació mi página web de cocina.</p>
+        <p>Mi página web se convirtió en un reflejo de mí misma: una mezcla de tradición y creatividad, de sabores familiares y exploraciones audaces. Cada receta que comparto viene con su propia historia, su propia inspiración. Desde el plato de pasta que me transporta de vuelta a las calles de Italia hasta el curry que me recuerda mis viajes por Asia, cada receta es un viaje en sí misma.</p>
+    </div>
+
+    <div class="container mt-6" style="margin-top: 80px;">
+        <div class="row">
+            <div class="col-6 mx-auto">
+                <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="Imagenes/2148044450.jpg" class="d-block w-100 img-fluid" alt="Mi niñez">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="Imagenes/comida11 (1).jpg" class="d-block w-100 img-fluid" alt="ingredientes">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="Imagenes/mujer4.jpg" class="d-block w-100 img-fluid" alt="Pastas">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="Imagenes/2148343618.jpg" class="d-block w-100 img-fluid" alt="Gabriela Hoy">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="Imagenes/comida12.jpg" class="d-block w-100 img-fluid" alt="Ingredientes2">
+                        </div>
+                  </div>
+
+                  <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Anterior</span>
+                  </a>
+                  <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Siguiente</span>
+                  </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="sobreGabriela2">
+        <p>Hoy en día, mi página web es mucho más que un simple recetario en línea. Es un lugar donde las personas vienen a encontrar inspiración, a aprender nuevas técnicas y, sobre todo, a compartir su amor por la comida. Porque en el mundo de Gabriela, la cocina no es solo una tarea, es una celebración de la vida misma. Y estoy emocionada de seguir compartiendo esta celebración con todos ustedes, un plato a la vez. ¡Bienvenidos a mi mesa!<br><br></p>
+    <div id="buttonHome">
+        <a class="button" href="Home.html">Ir al Home</a>
+    </div>
+    </div>   
+    <a href="#" id="goTopButton"><i class="fas fa-solid fa-circle-arrow-up"></i></a>
+    <script>
+        document.addEventListener("DOMContentLoaded",function() {
+            var goTopButton = document.getElementById('goTopButton');
+
+            goTopButton.addEventListener('click', function() {
+                window.scrollTo({
+                    top:0,
+                    behavior :"smooth"
+                }); 
+            });
+        });
+    </script>
+
+</section>
+<!--**********************************FOOTER **********************************-->
+<footer>
+    <nav class="foot">
+        <img 
+            src="Imagenes/Logo4.png"
+            class="container_img"
+            alt="logo-superior"
+        >
+        <div class="container_redes">
+            <a href="http://www.instagram.com/" class="instagram">
+                <i class="fa-brands fa-instagram" style="font-size: 40px;"></i>
+            </a>
+            <a href="http://www.facebook.com" class="facebook">
+                <i class="fa-brands fa-facebook" style="font-size: 40px;"></i>
+            </a>
+            <a href="mailto:gabrielacocina@gmail.com" class="correo">
+                <i class="fa-brands fa fa-envelope-o" style="font-size: 40px;"></i>
+            </a>
+        </div>
+
+    </nav>
+ </footer>
+
+</body>
+
+
+</html>
+

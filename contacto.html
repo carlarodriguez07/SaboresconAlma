@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Sabores con alma</title>
+        <link rel="icon" href="Imagenes/Logo1.ico">
+        <meta charset="UTF-8">
+        <meta name ="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="TP-estilo.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/3f033f1544.js" crossorigin="anonymous"></script>
+    </head>
+<body>
+
+    <!--********************************** HEADER **********************************-->
+    <header>
+        <nav class="container">
+            <img 
+                src="Imagenes/Logo4.png"
+                class="container_img"
+                alt="logo-superior"
+                width="120"
+                height="120"
+            >
+            <ul class="container_list">
+                <li><a href="Home.html" class="list_link1">Home</a></li>
+                <li><a href="recetas.html" class="list_link2">Recetas</a></li>
+                <li><a href="tureceta.html" class="list_link3">Crea tu Receta</a></li>
+                <li><a href="acerca.html" class="list_link4">Sobre Gabriela</a></li>
+                         
+            </ul>
+
+        </nav>
+    </header>
+
+    <!--********************************** MAIN CONTACTO **********************************-->
+    <main class="main-contacto">
+
+        <form class="form-contacto">
+            
+            <h2 class="h2-contacto">Contacto</h2>
+            
+            <div class="input-group">
+                
+                <label for="name" class="label-contacto">Nombre y Apellido</label>
+                <input type="text" name="name" id="name" class="input-contacto" placeholder="Nombre y Apellido">
+                
+                <label for="email" class="label-contacto">Email</label>
+                <input type="email" name="email" id="email" class="input-contacto" placeholder="Email"> 
+                
+                <label for="message" class="label-contacto">Consulta</label>
+                <textarea name="message" id="message" class="textarea-contacto" cols="30" rows="5" placeholder="Consulta"></textarea>
+                
+                <input type="submit" class="btn" value="Enviar">
+            </div>
+            
+        </form>
+        
+    </main>
+        
+        
+        <!--**********************************FOOTER **********************************-->
+        <footer>
+       <nav class="foot">
+           <img 
+               src="Imagenes/Logo4.png"
+               class="container_img"
+               alt="logo-superior"
+               width="150"
+               height="150"
+            >
+            <div class="container_redes">
+                <a href="http://www.instagram.com/" class="instagram">
+                    <i class="fa-brands fa-instagram" style="font-size: 40px;"></i>
+                </a>
+                <a href="http://www.facebook.com" class="facebook">
+                    <i class="fa-brands fa-facebook" style="font-size: 40px;"></i>
+                </a>
+                <a href="mailto:gabrielacocina@gmail.com" class="correo">
+                    <i class="fa-brands fa fa-envelope-o" style="font-size: 40px;"></i>
+                </a>
+            </div>
+
+        </nav>
+     </footer>
+</body>
+</html>
