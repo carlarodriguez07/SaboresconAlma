@@ -262,11 +262,9 @@ main h1 {
         padding-left: 0;
         margin-top: 5%;
         width: 100%;
-
-        .foot::before {
-            display: block;
-            }
+        border-top: none;
         }
+
     .container_img {
         margin-right: -40px;
         margin-bottom: 3%
@@ -294,6 +292,7 @@ main h1 {
         margin-left: 110px;
     }
 }
+
 /******************************************RECETAS******************************************************************/
 /************MAIN***************/
 
@@ -310,11 +309,11 @@ main h1 {
 }
 
 .titulo_receta {
-    margin-top: 7%;
+    margin-top: 2%;
     font-size:x-large;
     border: 2px solid #fa7814;
     padding: 10px;
-    width: 80%;
+    width: 100%;
     box-sizing: border-box;
     text-align: center;
     margin-bottom: 30px;
@@ -339,20 +338,22 @@ main h1 {
     justify-content: center;
     list-style-type: none;
     padding: 0;
-    margin-top: 5%;
+    margin-top: 15px;
     margin-bottom: 5px;
+    margin-left: 15px;
     flex-wrap:wrap ;
     font-size: 17px;
 }
 .preparacion {
     font-family: "montserrat";
     font-size: 20px;
-    padding: 0px 75px 0px 75px;
+    padding: 0px 15px 0px 15px;
 }
 
 .video_receta iframe {
     width: 400px;
     height: 300px;
+    margin-bottom: 70px;
 }
 #goTopButton {
     position: fixed; 
@@ -388,6 +389,7 @@ main h1 {
         flex-wrap: wrap;
         justify-content: center;
         font-size: 15px;
+        margin-left: 20px;
     }
     .ingredientes ul li{
         width: 90%;
@@ -395,8 +397,10 @@ main h1 {
         margin: 5px;
     }
     .preparacion{
-        font-size: 17px;      
+        font-size: 17px;  
+        padding: 0px 15px 0px 15px;    
     }
+    
 }
 
 /******************************************CONTACTO***************************************************************/
