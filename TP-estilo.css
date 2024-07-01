@@ -361,7 +361,7 @@ main h1 {
     bottom: 20px; 
     right: 25px; 
     font-size: 46px; 
-    color: #CF7734; 
+    color: #FFEB3B;
     background-color:white; 
     border:none;
     z-index: 1000; 
@@ -454,10 +454,11 @@ main h1 {
 
 .btn{
     font-size: 16px;
-    color: #FFFFFF;
+    font-weight: 600;
+    color: #cf7734;
     border: 0;
     border-radius: 25px;
-    background-color: #CF7734;
+    background-color:  #FFEB3B;
     box-shadow: 0 0 20px rgba(209, 118, 14, 0.4);
     cursor: pointer;
 }
@@ -659,8 +660,9 @@ main h1 {
     }
     .submit-btn {
         width: 100%;
-        padding: 10px;
-        background-color: #FA7814;
+        padding: 8px;
+        margin-top: 12px;
+        background-color:  #FFEB3B;
         color: #33302D;
         border: none;
         border-radius: 5px;
